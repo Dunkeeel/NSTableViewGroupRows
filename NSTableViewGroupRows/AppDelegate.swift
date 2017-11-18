@@ -12,10 +12,12 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var window: NSWindow!
-
+    let mainVC = MainView()
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+
+        window?.contentView = mainVC.view
+        
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

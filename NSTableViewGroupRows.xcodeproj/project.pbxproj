@@ -10,6 +10,9 @@
 		D23A5BE11FBF29010042F5FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23A5BE01FBF29010042F5FE /* AppDelegate.swift */; };
 		D23A5BE31FBF29010042F5FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23A5BE21FBF29010042F5FE /* Assets.xcassets */; };
 		D23A5BE61FBF29010042F5FE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D23A5BE41FBF29010042F5FE /* MainMenu.xib */; };
+		D23A5BF01FBF29390042F5FE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23A5BEE1FBF29390042F5FE /* MainView.swift */; };
+		D23A5BF11FBF29390042F5FE /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D23A5BEF1FBF29390042F5FE /* MainView.xib */; };
+		D23A5BF31FBF2A0F0042F5FE /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23A5BF21FBF2A0F0042F5FE /* Track.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		D23A5BE51FBF29010042F5FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D23A5BE71FBF29010042F5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D23A5BE81FBF29010042F5FE /* NSTableViewGroupRows.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSTableViewGroupRows.entitlements; sourceTree = "<group>"; };
+		D23A5BEE1FBF29390042F5FE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D23A5BEF1FBF29390042F5FE /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		D23A5BF21FBF2A0F0042F5FE /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 				D23A5BE41FBF29010042F5FE /* MainMenu.xib */,
 				D23A5BE71FBF29010042F5FE /* Info.plist */,
 				D23A5BE81FBF29010042F5FE /* NSTableViewGroupRows.entitlements */,
+				D23A5BEE1FBF29390042F5FE /* MainView.swift */,
+				D23A5BEF1FBF29390042F5FE /* MainView.xib */,
+				D23A5BF21FBF2A0F0042F5FE /* Track.swift */,
 			);
 			path = NSTableViewGroupRows;
 			sourceTree = "<group>";
@@ -119,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D23A5BF11FBF29390042F5FE /* MainView.xib in Resources */,
 				D23A5BE31FBF29010042F5FE /* Assets.xcassets in Resources */,
 				D23A5BE61FBF29010042F5FE /* MainMenu.xib in Resources */,
 			);
@@ -131,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D23A5BF31FBF2A0F0042F5FE /* Track.swift in Sources */,
 				D23A5BE11FBF29010042F5FE /* AppDelegate.swift in Sources */,
+				D23A5BF01FBF29390042F5FE /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
